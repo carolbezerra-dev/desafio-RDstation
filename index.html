@@ -7,12 +7,15 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="img/logo-rd-station-default.svg" alt="Logo RD Station com cores azul e preto" />
+  <header class="header">
+    <img
+      src="img/colorful-logos/logo-rd-station-default.png"
+      alt="logo RD Station with blue and black colors"
+    />
     <div>
-      <span>---</span>
-      <span>---</span>
-      <span>---</span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
     <!-- <nav>
       <ul>
@@ -26,9 +29,10 @@
       <button>Button ➞</button>
     </nav> -->
   </header>
-  <div>
-    <main>
-      <div>
+  <hr class="hr-1"/>
+  <div class="div-container">
+    <main class="main-container">
+      <div class="main-div-1">
         <h1>
           Gere mais
           <strong>oportunidades</strong>
@@ -41,81 +45,109 @@
           qualificadas e alcançar mais resultados.
         </p>
       </div>
-      <div>
-        <h2>
-          Comece seus 10 dias de teste
-          grátis do RD Station Marketing!
-        </h2>
-        <p>Não precisa cadastrar cartão de crédito. 😉</p>
-        <hr/>
-        <form action="https://app.rdstation.com.br/signup" method="post">
-          <label for="form-name">
-            Diga, qual seu nome?
-            <input type="text" id="form-name" placeholder="Insira seu nome" required />
-          </label>
-          <label for="form-email">
-            Seu email de trabalho
-            <input type="email" id="form-email" placeholder="Insira seu email" required />
-          </label>
-          <label for="form-phone">
-            Seu telefone
-            <input
-              type="text"
-              id="form-phone"
-              placeholder="Insira seu número de telefone com DDD"
-              required
-            />
-          </label>
-          <select>
-            Seu cargo de ocupação
-            <option>Selecione seu cargo</option>
-            <option>Sócio(a) / CEO / Proprietário(a)</option>
-            <option>Diretor(a) de Vendas</option>
-            <option>Diretor(a) de Marketing</option>
-            <option>Diretor(a) Outras Áreas</option>
-            <option>Gerente de Marketing</option>
-            <option>Gerente de Vendas</option>
-            <option>Coordenador(a)/Supervisor(a) de Marketing</option>
-            <option>Coordenador(a)/Supervisor(a) de Vendas</option>
-            <option>Analista/Assistente de Marketing</option>
-            <option>Analista/Assistente de Vendas</option>
-            <option>Vendedor(a) / Executivo(a) de Contas</option>
-            <option>Estudante</option>
-            <option>Outros Cargos</option>
-          </select>
-          <label for="form-password">
-            Crie uma senha
-            <input type="password" id="form-password" minlength="6" maxlength="10" required />
-          </label>
-          <label for="form-confirm-password">
-            Confirme uma senha
-            <input
-              type="password"
-              id="form-confirm-password"
-              minlength="6"
-              maxlength="10"
-              required
-            />
-          </label>
-          <label for="form-company">
-            Qual o site da sua empresa?
-            <input type="radio" name="form-company" /> Meu site é
-            <input type="text" placeholder="Insira o endereço do seu site" />
-            <input type="radio" name="form-company" /> Ainda não tenho site
-          </label>
-          <ul>
-            <li>
-              Ao criar minha conta estou de acordo com os
-              <a href="https://legal.rdstation.com/pt-BR/rdstation-services-agreement/">termos de uso</a> do software e <a href="https://legal.rdstation.com/pt/privacy-policy/">política de privacidade</a>.
-            </li>
-            <li>
-              Ao preencher o formulário, concordo em receber comunicações de acordo com
-              meus interesses.
-            </li>
-            <li>*Você pode alterar suas permissões de comunicação a qualquer tempo.</li>
-          </ul>
-          <button>CRIAR MINHA CONTA</button>
-        </form>
+      <div class="main-div-2">
+        <section class="section-form">
+          <h2>
+            Comece seus 10 dias de teste
+            grátis do RD Station Marketing!
+          </h2>
+          <p>Não precisa cadastrar cartão de crédito. 😉</p>
+          <span class="span-section-form"></span>
+          <hr class="hr-1"/>
+          <form action="https://app.rdstation.com.br/signup" method="post">
+            <label for="form-name" class="label-form">
+              Diga, qual seu nome?
+              <input
+                type="text"
+                id="form-name"
+                placeholder="Insira seu nome"
+                required
+                class="input-form"
+              />
+            </label>
+            <label for="form-email" class="label-form">
+              Seu email de trabalho
+              <input
+                type="email"
+                id="form-email"
+                placeholder="Insira seu email"
+                required
+                class="input-form"
+              />
+            </label>
+            <label for="form-phone" class="label-form">
+              Seu telefone
+              <input
+                type="text"
+                id="form-phone"
+                placeholder="Insira seu número de telefone com DDD"
+                required
+                class="input-form"
+              />
+            </label>
+            <label for="form-select" class="label-form">
+              Seu cargo de ocupação
+              <select id="form-select" class="input-form">
+                <option>Selecione seu cargo</option>
+                <option>Sócio(a) / CEO / Proprietário(a)</option>
+                <option>Diretor(a) de Vendas</option>
+                <option>Diretor(a) de Marketing</option>
+                <option>Diretor(a) Outras Áreas</option>
+                <option>Gerente de Marketing</option>
+                <option>Gerente de Vendas</option>
+                <option>Coordenador(a)/Supervisor(a) de Marketing</option>
+                <option>Coordenador(a)/Supervisor(a) de Vendas</option>
+                <option>Analista/Assistente de Marketing</option>
+                <option>Analista/Assistente de Vendas</option>
+                <option>Vendedor(a) / Executivo(a) de Contas</option>
+                <option>Estudante</option>
+                <option>Outros Cargos</option>
+              </select>
+            </label>
+            <label for="form-password" class="label-form">
+              Crie uma senha
+              <input
+                type="password"
+                id="form-password"
+                minlength="6"
+                maxlength="10"
+                required
+                class="input-form"
+              />
+            </label>
+            <label for="form-confirm-password" class="label-form">
+              Confirme uma senha
+              <input
+                type="password"
+                id="form-confirm-password"
+                minlength="6"
+                maxlength="10"
+                required
+                class="input-form"
+              />
+            </label>
+            <label for="form-company" class="label-form">
+              Qual o site da sua empresa?
+              <br/>
+              <input type="radio" name="form-company" /> Meu site é
+              <input type="text" placeholder="Insira o endereço do seu site" class="input-form" />
+              <input type="radio" name="form-company" /> Ainda não tenho site
+            </label>
+            <ul class="form-ul">
+              <li>
+                Ao criar minha conta estou de acordo com os
+                <a href="https://legal.rdstation.com/pt-BR/rdstation-services-agreement/">termos de uso</a> do software e <a href="https://legal.rdstation.com/pt/privacy-policy/">política de privacidade</a>.
+              </li>
+              <li>
+                Ao preencher o formulário, concordo em receber comunicações de acordo com
+                meus interesses.
+              </li>
+              <li>*Você pode alterar suas permissões de comunicação a qualquer tempo.</li>
+            </ul>
+            <button>CRIAR MINHA CONTA</button>
+            <span></span>
+          </form>
+        </section>
         <section>  
           <h2>
             Estaremos juntos desde o
@@ -141,34 +173,40 @@
           <p>Torne sua atuação no Marketing Digital mais eficaz</p>
           <ul>
             <li>
-              &#x2714;&#xFE0F; <strong>Ferramentas intuitivas</strong> e com modelos
+              <img src="img/check-mark-blue.png" alt="emoji-check-blue" />
+              <strong>Ferramentas intuitivas</strong> e com modelos
               prontos, vídeos explicativos e passo a
               passo guiado
             </li>
             <li>
-              &#x2714;&#xFE0F; <strong>Implementação com especialistas</strong>
+              <img src="img/check-mark-blue.png" alt="emoji-check-blue" />
+              <strong>Implementação com especialistas</strong>
               focada em planejamento e prática (nos
               planos Marketing Pro e Enterprise)
             </li>
             <li>
-              &#x2714;&#xFE0F; <strong>Time de especialistas em Sucesso do
+              <img src="img/check-mark-blue.png" alt="emoji-check-blue" />
+              <strong>Time de especialistas em Sucesso do
               Cliente</strong> para apoiar na otimização da
               estratégia em cada fase da sua jornada
               (nos planos Marketing Pro e Enterprise)
             </li>
             <li>
-              &#x2714;&#xFE0F; <strong>Suporte Técnico</strong> em português,
+              <img src="img/check-mark-blue.png" alt="emoji-check-blue" />
+              <strong>Suporte Técnico</strong> em português,
               espanhol e inglês para tirar dúvidas,
               <strong>com 97% d satisfação</strong> entre nossos
               clientes
             </li>
             <li>
-              &#x2714;&#xFE0F; <strong>Muito conteúdo educativo</strong>, eventos,
+              <img src="img/check-mark-blue.png" alt="emoji-check-blue" />
+              <strong>Muito conteúdo educativo</strong>, eventos,
               cursos da <a href="#">RD University</a> e comunidades
               para vocẽ continuar evoluindo
             </li>
           </ul>
-          <img src="img/img-results.png" alt="mulher escrevendo resultados um quadro de vidro" />
+          <img
+            src="img/img-results.png" alt="woman writing on a glass board" />
         </section>
         <section>
           <h2>
@@ -177,7 +215,10 @@
             líder na América Latina
           </h2>
           <article>
-            <img src="img/md-produtivo.jpeg" alt="seta azul que indica gráfico em ascensão" />
+            <img
+              src="img/blue-icons/blue-arrow-graphic.png"
+              alt="blue arrow indicating rising graph"
+            />
             <h4>
               Torne sua operação de
               Marketing Digital mais
@@ -194,7 +235,7 @@
             </p>
           </article>
           <article>
-            <img src="img/megafone-azul.png" alt="megafone azul" />
+            <img src="img/blue-icons/blue-megaphone.png" alt="blue megaphone" />
             <h4>
               Crie facilmente
               campanhas que
@@ -212,7 +253,7 @@
             </p>
           </article>
           <article>
-            <img src="img/círculos-se-conectando.png" alt="símbolo de círculos se conectando" />
+            <img src="img/blue-icons/blue-circles.png" alt="connecting circles symbol" />
             <h4>
               Construa jornadas
               personalizadas e gere
@@ -228,7 +269,7 @@
             </p>
           </article>
           <article>
-            <img src="img/estrela-azul.png" alt="estrela azul preenchida" />
+            <img src="img/blue-icons/blue-star.png" alt="filled blue star" />
             <h4>
               Encontre
               automaticamente as
@@ -245,7 +286,7 @@
             </p>
           </article>
           <article>
-            <img src="img/gráfico-pizza-azul.png" alt="gráfico azul no formato pizza" />
+            <img src="img/blue-icons/blue-circle-graphic.png" alt="blue circle graphic" />
             <h4>
               Saia da incerteza e
               comprove resultados
@@ -261,7 +302,7 @@
             </p>
           </article>
           <article>
-            <img src="img/globo-azul.png" alt="globo azul" />
+            <img src="img/blue-icons/blue-globe.png" alt="blue globe" />
             <h4>
               Suporte ágil e na sua
               língua
@@ -298,7 +339,7 @@
             Station Marketing funciona na
             prática
           </h3>
-          <p>ASSISTA A DEMONSTRAÇÃO <img src="img/play-black.png" alt="símbolo de play" /></p>
+          <p>ASSISTA A DEMONSTRAÇÃO <img src="img/play.png" alt="play symbol" /></p>
           <iframe
             width="560"
             height="315"
@@ -321,62 +362,73 @@
             internacionais
           </p>
           <div>
-            <img src="" alt="" />
+            <img
+              src="img/colorful-logos/logo-RDstation.png"
+              alt="logo RD Station with blue and black colors"
+            />
             <p>RD Station CRM</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="img/colorful-logos/logo-salesforce.png" alt="Salesforce logo" />
             <p>Salesforce</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="img/colorful-logos/logo-google.png" alt="Google logo" />
             <p>Google</p>
           </div>
           <div>
-            <img src="img/símbolo-facebook-colorido.png" alt="símbolo do Facebook colorido" />
+            <img src="img/colorful-logos/logo-facebook.png" alt="Facebook logo" />
             <p>Facebook</p>
           </div>
           <div>
-            <img src="img/símbolo-linkedin-colorido.png" alt="símbolo do Linkedin colorido" />
+            <img src="img/colorful-logos/logo-linkedin.png" alt="Linkedin logo" />
             <p>Linkedin</p>
           </div>
           <div>
-            <img src="img/símbolo-wordpress.png" alt="Símbolo do Wordpress" />
+            <img src="img/bw-logos/wordpress-bw.png" alt="Wordpress logo" />
             <p>Wordpress</p>
           </div>
           <div>
-            <img src="img/símbolo-hotmart-colorido.png" alt="símbolo da Hotmart colorido" />
+            <img src="img/colorful-logos/logo-hotmart.png" alt="Hotmart logo" />
             <p>Hotmart</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="img/colorful-logos/logo-pagseguro.png" alt="PagSeguro logo" />
             <p>PagSeguro</p>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="img/colorful-logos/logo-shopify.png" alt="Shopify logo" />
             <p>Shopify</p>
           </div>
           <div>
-            <img src="img/símbolo-zapier.png" alt="Símbolo Zapier" />
+            <img src="img/colorful-logos/logo-zapier.png" alt="Zapier logo" />
             <p>Zapier</p>
           </div>
           <a href="https://app.rdstation.com.br/signup" target="_blank">CRIAR CONTA GRATUITA</a>
         </section>
-        <footer>
-          <img src="" alt="" />
-          <hr/>
-          <img src="" alt="" />
-          <a href="https://www.facebook.com/ResultadosDigitais/">
-            <img src="img/símbolo-facebook-black.png" alt="símbolo do Facebook" />
-          </a>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          2021 <strong>RD Station</strong>
-          <a href="https://legal.rdstation.com/pt/privacy-policy/">Política de Privacidade</a>.
-        </footer>
       </div>
     </main>
+    <footer>
+      <img src="img/bw-logos/rd-station-bw.png" alt="logo RD Station with black and white colors" />
+      <hr/>
+      <a href="https://twitter.com/rd_station">
+        <img src="img/bw-logos/twitter-bw.png" alt="Twitter black logo" />
+      </a>
+      <a href="https://www.facebook.com/ResultadosDigitais/">
+        <img src="img/bw-logos/facebook-bw.png" alt="Facebook black logo" />
+      </a>
+      <a href="https://www.linkedin.com/company/resultadosdigitais">
+        <img src="img/bw-logos/linkedin-bw.png" alt="Linkedin black logo" />
+      </a>
+      <a href="https://www.instagram.com/resdigitais/">
+        <img src="img/bw-logos/instagram-bw.png" alt="Instagram black logo" />
+      </a>
+      <a href="https://www.youtube.com/channel/UC5lPKvmw6-DFya_qreisENQ">
+        <img src="img/bw-logos/youtube-bw.png" alt="Youtube black logo" />
+      </a>
+      ©️ 2021 <strong>RD Station</strong>
+      <a href="https://legal.rdstation.com/pt/privacy-policy/">Política de Privacidade</a>.
+    </footer>
   </div>
 </body>
 </html>
