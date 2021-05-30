@@ -12,24 +12,34 @@
       src="img/colorful-logos/logo-rd-station-default.png"
       alt="logo RD Station with blue and black colors"
     />
-    <div>
+    <div id="menu-burger">
       <span></span>
       <span></span>
       <span></span>
     </div>
-    <!-- <nav>
-      <ul>
-        <li><a href="#">Menu 1</a></li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
-        <li><a href="#">Menu 4</a></li>
-        <li><a href="#">Menu 5</a></li>
-      </ul>
-      <button>Button</button>
-      <button>Button ➞</button>
-    </nav> -->
   </header>
   <hr class="hr-1"/>
+  <nav id="nav" class="nav-no-display">
+    <ul class="nav-ul">
+      <li><a href="#" class="nav-ul-li-a">Menu 1</a></li>
+      <li>
+        <select class="nav-ul-li-select">
+          <option>Menu 2</option>
+        </select>
+      </li>
+      <li><a href="#" class="nav-ul-li-a">Menu 3</a></li>
+      <li><a href="#" class="nav-ul-li-a">Menu 4</a></li>
+      <li><a href="#" class="nav-ul-li-a">Menu 5</a></li>
+    </ul>
+    <div>
+      <div>
+        <button class="nav-button-1">BUTTON</button>
+      </div>
+      <div>
+        <button class="nav-button-2">BUTTON ➞</button>
+      </div>
+    </div>
+  </nav>
   <div class="div-container">
     <main class="main-container">
       <div class="main-div-1">
@@ -53,7 +63,6 @@
           </h2>
           <p>Não precisa cadastrar cartão de crédito. 😉</p>
           <span class="span-section-form"></span>
-          <hr class="hr-1"/>
           <form action="https://app.rdstation.com.br/signup" method="post">
             <label for="form-name" class="label-form">
               Diga, qual seu nome?
@@ -145,11 +154,10 @@
               <li>*Você pode alterar suas permissões de comunicação a qualquer tempo.</li>
             </ul>
             <button>CRIAR MINHA CONTA</button>
-            <span></span>
           </form>
         </section>
         <section class="section-after-form">
-          <h2>
+          <h2 class="section-after-form-h2">
             Estaremos juntos desde o
             primeiro passo!
           </h2>
@@ -169,7 +177,7 @@
           </p>
         </section>
         <section class="section-results">
-          <h3>
+          <h3 class="section-results-h3">
             Resultados previsíveis<br/>
             e mais clientes para sua empresa
           </h3>
@@ -177,41 +185,51 @@
           <ul>
             <li>
               <img src="img/check-mark-blue.png" alt="emoji-check-blue" class="img-results-li" />
-              <strong>Ferramentas intuitivas</strong> e com modelos
-              prontos, vídeos explicativos e passo a
-              passo guiado
+              <p>
+                <strong>Ferramentas intuitivas</strong> e com modelos
+                prontos, vídeos explicativos e passo a
+                passo guiado
+              </p>
             </li>
             <li>
               <img src="img/check-mark-blue.png" alt="emoji-check-blue" class="img-results-li" />
-              <strong>Implementação com especialistas</strong>
-              focada em planejamento e prática (nos
-              planos Marketing Pro e Enterprise)
+              <p>
+                <strong>Implementação com especialistas</strong>
+                focada em planejamento e prática (nos
+                planos Marketing Pro e Enterprise)
+              </p>
             </li>
             <li>
               <img src="img/check-mark-blue.png" alt="emoji-check-blue" class="img-results-li" />
-              <strong>Time de especialistas em Sucesso do
-              Cliente</strong> para apoiar na otimização da
-              estratégia em cada fase da sua jornada
-              (nos planos Marketing Pro e Enterprise)
+              <p>
+                <strong>Time de especialistas em Sucesso do
+                Cliente</strong> para apoiar na otimização da
+                estratégia em cada fase da sua jornada
+                (nos planos Marketing Pro e Enterprise)
+              </p>
             </li>
             <li>
               <img src="img/check-mark-blue.png" alt="emoji-check-blue" class="img-results-li" />
-              <strong>Suporte Técnico</strong> em português,
-              espanhol e inglês para tirar dúvidas,
-              <strong>com 97% de satisfação</strong> entre nossos
-              clientes
+              <p>
+                <strong>Suporte Técnico</strong> em português,
+                espanhol e inglês para tirar dúvidas,
+                <strong>com 97% de satisfação</strong> entre nossos
+                clientes
+              </p>
             </li>
             <li>
               <img src="img/check-mark-blue.png" alt="emoji-check-blue" class="img-results-li" />
-              <strong>Muito conteúdo educativo</strong>, eventos,
-              cursos da <a href="#">RD University</a> e comunidades
-              para vocẽ continuar evoluindo
+              <p>
+                <strong>Muito conteúdo educativo</strong>, eventos,
+                cursos da <a href="#">RD University</a> e comunidades
+                para vocẽ continuar evoluindo
+              </p>
             </li>
           </ul>
           <img src="img/img-results.png" alt="woman writing on a glass board" />
         </section>
         <section class="section-cards">
-          <h2>
+          <h2 class="section-cards-h2">
             A ferramenta de
             Automação de Marketing
             líder na América Latina
@@ -320,7 +338,7 @@
           </article>
         </section>
         <section class="section-before-video">
-          <h2>
+          <h2 class="section-before-video-h2">
             Por que mais de
             25.000 empresas
             escolheram o RD
@@ -333,8 +351,13 @@
             ecossistema que apoia o seu negócio do
             planejamento à prática.
           </p>
-          <a href="https://app.rdstation.com.br/signup" target="_blank">CRIAR CONTA GRATUITA</a>
-          <span></span>
+          <a
+            href="https://app.rdstation.com.br/signup"
+            target="_blank"
+            class="section-before-video-a"
+          >
+            CRIAR CONTA GRATUITA
+          </a>
         </section>
         <section class="section-video">
           <h3>
@@ -342,8 +365,9 @@
             Station Marketing funciona na
             prática
           </h3>
-          <p>ASSISTA A DEMONSTRAÇÃO <img src="img/play.png" alt="play symbol" /></p>
-          <span></span>
+          <p class="section-video-p">
+            ASSISTA A DEMONSTRAÇÃO <img src="img/play.png" alt="play symbol" />
+          </p>
           <iframe
             width="560"
             height="315"
@@ -356,7 +380,7 @@
         </section>
         <section class="section-companies">
           <div class="section-companies-div-1">
-            <h3>
+            <h3 class="section-companies-div-1-h3">
               Torne sua operação de
               Marketing ainda mais
               poderosa
@@ -413,7 +437,6 @@
             </div>
           </div>
           <a href="https://app.rdstation.com.br/signup" target="_blank">CRIAR CONTA GRATUITA</a>
-          <span></span>
         </section>
       </div>
     </main>
@@ -442,5 +465,6 @@
       </p>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
