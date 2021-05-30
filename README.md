@@ -8,7 +8,7 @@ Reproduzir uma página conforme Figma disponibilizado
 
 ### Estratégia usada
 - Escrevi o HTML
-- Escrevi o CSS versão mobile
+- Escrevi o CSS **versão mobile**
 - Ajustei HTML e CSS
 - Escrevi a parte em Javascript
 
