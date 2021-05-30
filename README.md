@@ -24,4 +24,5 @@ ou `https://github.com/carolbezerra-dev/desafio-RDstation.git` para HTTPS
 - HTML
 - CSS
 - Javascript Vanilla  
+
 OBS: Nenhum framework ou biblioteca foi utilizado no desenvolvimento do desafio
